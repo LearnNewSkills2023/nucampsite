@@ -8,3 +8,7 @@ export const selectFeaturedPartner = () => {
     
     return PARTNERS.find((partner) => partner.featured);
 }
+
+export const selectAllPartners = () => {
+    return PARTNERS;
+}
