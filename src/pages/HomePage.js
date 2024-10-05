@@ -1,5 +1,14 @@
-const HomePage = () => {
-    return <div>HomePage</div>
-}
+import { Container } from 'reactstrap'
+import DisplayList from '../features/display/DisplayList'
+import SubHeader from '../components/SubHeader'
 
-export default HomePage
+const HomePage = () => {
+    return (
+        <Container>
+            <DisplayList />
+            <SubHeader current='Home' />
+        </Container>
+    );
+};
+
+export default HomePage;
